@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        .abc{
+        color:darkblue;
+      }
+      .abc1{
+        color:brown;
+      }
+    </style>
+</head>  
+<body>
+    <br><br>
+    <h1>THE RESULTANT MOVIE:</h1>
+
+      <h3 class="abc">Title:<i class="abc1"> <%= Title %></i></h3>
+      <h3 class="abc">Runtime:<i class="abc1"> <%= Runtime %></i></h3>
+      <h3 class="abc">Released:<i class="abc1"> <%= Released %></i></h3>
+
+      <div align="center">
+      <form action="/searchsubmit" method="GET"><button class="btn btn-primary" type="submit">Go Back</button></form></div>
+      </div>
+</body>
+</html>
