@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "parse-json": "^8.1.0",
+    "request": "^2.88.2"
+  }
+}
